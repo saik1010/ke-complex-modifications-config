@@ -1,0 +1,2 @@
+# ke-complex-modifications-config
+Karabiner-Elements complex_modifications rulesでアプリケーションを起動する設定ファイル

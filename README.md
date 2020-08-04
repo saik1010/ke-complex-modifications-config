@@ -1,2 +1,2 @@
-# ke-complex-modifications-config
-Karabiner-Elements complex_modifications rulesでアプリケーションを起動する設定ファイル
+# 下記に配置してください
+~/.config/karabiner/assets/complex_modifications/1.json

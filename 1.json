@@ -56,7 +56,7 @@
         ]
     },
     {
-        "description": "「right-shift + C」でカレンダー（スケジューラー）を開く",
+        "description": "「right-shift + C」でChromeを開く",
         "manipulators": [
             {
             "type": "basic",
@@ -68,7 +68,7 @@
                 }
             },
             "to": [
-                { "shell_command": "open -a 'Safari.app'" }
+                { "shell_command": "open -a 'Google Chrome.app'" }
             ]
             }
         ]
@@ -141,6 +141,24 @@
             },
             "to": [
                 { "shell_command": "open -a 'iTerm.app'" }
+            ]
+            }
+        ]
+    },
+    {
+        "description": "「right-shift + F」でfinderを開く",
+        "manipulators": [
+            {
+            "type": "basic",
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                "mandatory": [ "right_shift" ],
+                "optional": [ "any" ]
+                }
+            },
+            "to": [
+                { "shell_command": "open -a 'finder'" }
             ]
             }
         ]

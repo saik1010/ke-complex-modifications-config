@@ -2,6 +2,24 @@
  "title": "Launch apps",
  "rules": [
     {
+        "description": "「right-shift + S」でShiftを開く",
+        "manipulators": [
+            {
+            "type": "basic",
+            "from": {
+                "key_code": "s",
+                "modifiers": {
+                "mandatory": [ "right_shift" ],
+                "optional": [ "any" ]
+                }
+            },
+            "to": [
+                { "shell_command": "open -a 'Shift.app'" }
+            ]
+            }
+        ]
+    },
+    {
         "description": "「right-shift + S」でSlackを開く",
         "manipulators": [
             {

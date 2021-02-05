@@ -16,30 +16,6 @@
                 },
                 "rules": [
                     {
-                        "description": "「right-shift + S」でShiftを開く",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Shift.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "「right-shift + S」でSlackを開く",
                         "manipulators": [
                             {
@@ -64,30 +40,6 @@
                         ]
                     },
                     {
-                        "description": "「right-shift + T」でTrelloを開く",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_shift"
-                                        ],
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Trello.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "「right-shift + M」でメーラーを開く",
                         "manipulators": [
                             {
@@ -104,7 +56,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Spark.app'"
+                                        "shell_command": "open -a 'Shift.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -184,11 +136,11 @@
                         ]
                     },
                     {
-                        "description": "「right-shift + E」でEvernoteを開く",
+                        "description": "「right-shift + T」でTODOアプリを開く",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_shift"
@@ -200,7 +152,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Evernote.app'"
+                                        "shell_command": "open -a 'WebPomodoro.app'"
                                     }
                                 ],
                                 "type": "basic"
